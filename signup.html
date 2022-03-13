@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Create new account</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+body{
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(80deg,lightblue,lightpink)
+    
+}
+/*Main form*/
+.centre{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    top:30%;
+    left: 52%;
+    transform: translate(-50% ,-50%);
+    background:transparent
+}
+/*signup*/
+h1{
+    margin-left: 7%;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59, 58, 59);
+    font-family: sans-serif;    
+}
+/*Close button*/
+h3 a{
+    float: right;
+    padding: 5px;
+    color: grey;
+    text-decoration: none;
+    font-size: 10px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    font-weight: lighter;
+    transition: 0.8s;
+    }
+h3 a:hover{
+    color: white;
+    background-color: black;
+    transition: 0.8s;
+}
+.text_field{
+    margin-top: 15px;
+    border-bottom: 1px solid rgb(131, 182, 184);
+
+}
+.text_field input{
+    width: 98%;
+    height: 29px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-left: 8%;
+    color: rgb(44, 44, 44);
+    text-align: center;
+    
+}   
+
+.phone{
+    border: none;
+    background: none;
+    outline: none;
+    width: 40%;
+    appearance: none;
+}
+input{
+    text-align: center;
+    max-width: fit-content;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+button{
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 5px;
+    width: 80%;
+    color: rgb(80, 69, 69);
+    background: transparent;
+    border:1px solid rgb(145, 141, 121);
+    border-radius: 10px;
+    transition: 0.7s;
+}
+button:hover{
+    color: white;
+    background-color: rgb(78, 72, 61);
+    transition: 0.7s;
+}
+h4{
+    margin-left: 17%;
+}
+.fpass{
+    margin-left: 30%;
+}
+        </style>
+    </head>
+    <body>
+        <div class="centre">
+            <div class="btn">
+                <h3><a href="index.html">X</a></h3>
+            </div>
+           <br><br> <h1>Sign up</h1><br>
+        <form action="get" target="blank_page">
+            <div class="text_field" aria-required="true">
+                <input type="text" required placeholder="First Name" autofocus ><br>
+            </div>
+            <div class="text_field">
+                <input type="text" required placeholder="Last Name" autofocus><br>
+            </div>
+           <!--mobile no.-->
+            <div class="text_field">
+                <input type="number" name="mob" id="mob" placeholder="Enter Moblie No." required>
+            </div>
+            <!--email-->
+            <div class="text_field">
+                <input type="email" placeholder="Enter a valid Email" required>
+            </div>
+            <!--Password-->
+            <div class="text_field">
+               <input type="password" name="pass" id="pass" required placeholder="Password" >
+            </div>
+            <div class="text_field">
+                <input type="password" name="pass" id="pass" required placeholder="Confirm Password" >
+            </div>
+            <!-- Button-->
+            <div class="button">
+                <br>
+               <button type="singup">Sign up</button>
+            </div>
+            <br>
+            <h4>Already have an account?</h4>
+             <button onclick="document.location='login.html'">Login</button>
+            <div class="fpass">
+                <label for="fpass">
+                   <br> <a href="#">Forget Password?</a>
+                </label>
+            </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html> 

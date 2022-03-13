@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+       *{
+    border: 0px;
+    margin: 0px;
+}
+body{
+    background: linear-gradient(110deg,rgb(109, 149, 177),rgb(177, 151, 155));
+}
+.navbar{
+    position: sticky;
+}
+header{
+    display: block;
+    background-color: #7fffd4;
+    backface-visibility: hidden;
+    overflow: hidden;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 170%;
+
+}
+h6{
+    padding: 0px 0px 0px 250px;
+}
+.navbar ul{
+    width: 99.8%;
+    height: 50px;
+    padding: 1px 0px 0px 1px;
+    list-style: none;
+    background-color: burlywood;
+   display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; 
+}
+.navbar li{
+    margin-top: 2px;
+    padding:2px;
+    padding-top: 10px;
+    align-content: center;
+    float: left;
+    height: 35px;
+    width: 15.8%;
+    text-align: center;   
+    border-radius: 15px;
+    
+}
+.navbar li:hover{
+    background-color: rgb(221, 162, 85);
+    box-shadow: 1px 2px 5px 6px rgba(184, 132, 64 , 0.6);
+    font-size: 18px;
+}
+.navbar ul a{
+    font-weight: bolder;
+    color: rgb(78, 72, 72);
+    text-decoration: none;
+}
+.navbar ul a:hover{
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px rgb(107, 103, 103);
+}
+.items{
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 3px;
+    column-gap: 5px;
+    
+}
+.card{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(135, 231, 231);  
+    width: 200px;  
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img img{
+    
+    width: 100%;
+    height: 160px;
+}
+.title{
+    padding: 18px;
+}
+.desc{
+    padding-bottom: 9px;
+    
+}
+.desc button{
+    background-color: bisque;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    position: relative;
+    background-color: #393a3a;
+    color: aliceblue;
+    height: 200px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.footer p{
+    width: 200px;
+}
+.footer #about{
+    width: fit-content;
+    border-bottom: 2px solid white;
+    margin-bottom: 8px;
+}
+.footer ul{
+    list-style-type: none;
+    display: grid;
+    justify-content: left;
+    padding: 2px;
+    margin-left: 5px;
+}
+.footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+        Super Store</h1>
+        <h6>
+            For All Your Needs
+        </h6>
+    </header>
+    <hr>
+   <nav class="navbar">
+    <ul>
+        <li>
+            <a href="">All categories</a>
+        </li>
+        <li>
+           <a href="">Grocery</a> 
+        </li>
+        <li>
+           <a href="">Kitchen</a>
+        </li>
+        <li>
+           <a href="">Fashion</a> 
+        </li>
+        <li>
+           <a href="">Electronics</a> 
+        </li>
+        <li>
+            <a href="login.html">Login</a>
+        </li>
+    </ul>
+</nav>
+<div class="items">
+ <div class="card">
+     <div class="img">
+        <img src="image1.jpg" alt="image">
+     </div>
+     <div class="title">
+        <p>This is title</p>
+     </div>
+     <div class="desc">
+       <button type="submit"><a href="#">Read more</a></button>
+     </div>
+ </div>
+ <div class="card">
+    <div class="img">
+       <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+       <p>This is title</p>
+    </div>
+    <div class="desc">
+      <button>read more</button>
+    </div> 
+</div>
+<div class="card">
+    <div class="img">
+       <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+       <p>This is title</p>
+    </div>
+    <div class="desc">
+      <button type="submit">hlo</button>
+    </div> 
+</div>
+<div class="card">
+    <div class="img">
+       <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+       <p>This is title</p>
+    </div>
+    <div class="desc">
+      <button type="submit">hlo</button>
+    </div> 
+</div>
+<div class="card">
+    <div class="img">
+       <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+       <p>This is title</p>
+    </div>
+    <div class="desc">
+      <button type="submit">hlo</button>
+    </div> 
+</div>
+<div class="card">
+    <div class="img">
+        <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+        <p>This is title</p>
+    </div>
+    <div class="desc">
+        <button type="submit">hlo</button>
+    </div>
+</div>
+<div class="card">
+    <div class="img">
+       <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+       <p>This is title</p>
+    </div>
+    <div class="desc">
+      <button type="submit">hlo</button>
+    </div> 
+</div>
+<div class="card">
+    <div class="img">
+       <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+       <p>This is title</p>
+    </div>
+    <div class="desc">
+      <button type="submit">hlo</button>
+    </div> 
+</div>
+<div class="card">
+    <div class="img">
+       <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+       <p>This is title</p>
+    </div>
+    <div class="desc">
+      <button type="submit">hlo</button>
+    </div> 
+</div>
+<div class="card">
+    <div class="img">
+       <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+       <p>This is title</p>
+    </div>
+    <div class="desc">
+      <button type="submit">hlo</button>
+    </div> 
+</div>
+<div class="card">
+    <div class="img">
+       <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+       <p>This is title</p>
+    </div>
+    <div class="desc">
+      <button type="submit">hlo</button>
+    </div> 
+</div>
+<div class="card">
+    <div class="img">
+       <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+       <p>This is title</p>
+    </div>
+    <div class="desc">
+      <button type="submit">hlo</button>
+    </div> 
+</div>
+<div class="card">
+    <div class="img">
+       <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+       <p>This is title</p>
+    </div>
+    <div class="desc">
+      <button type="submit">hlo</button>
+    </div> 
+</div>
+<div class="card">
+    <div class="img">
+       <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+       <p>This is title</p>
+    </div>
+    <div class="desc">
+      <button type="submit">hlo</button>
+    </div> 
+</div>
+<div class="card">
+    <div class="img">
+       <img src="image1.jpg" alt="image">
+    </div>
+    <div class="title">
+       <p>This is title</p>
+    </div>
+    <div class="desc">
+      <button type="submit">hlo</button>
+    </div> 
+</div>
+</div>
+</body>
+<footer>
+   <div class="footer">
+      <ul>
+         <li id="about">About us </li>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, veniam repellat? Quos, aperiam! Ad totam ipsa quibusdam expedita doloremque ipsum repellat inventore molestiae.</p>
+      </ul>
+       <ul>
+         <li>Product</li>
+         <li>Category</li>
+         <li>Gift Cards</li>
+         <li>Advertise your product</li>         
+      </ul>
+      <ul>
+         <li><a href="#">Contact Us</a> </li>
+         <li><a href="mailto:jk9050155@gmail.com" target="blank">mail</a></li>
+         <li>Gift Cards</li>
+         <li>Advertise your product</li>         
+      </ul>
+   </div>
+</footer>
+</html>

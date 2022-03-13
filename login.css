@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(80deg,lightblue,lightpink);
+}
+.centre{
+    position: absolute;
+    height: 350px;
+    width: 260px;
+    top:43%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background:transparent;
+}
+h3 a{
+    float: right;
+    padding: 5px;
+    color: grey;
+    text-decoration: none;
+    font-size: 10px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    font-weight: lighter;
+    }
+h3 a:hover{
+    color: white;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59, 58, 59);
+    font-family: sans-serif;    
+}
+.text_field{
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(131, 182, 184);
+
+}
+.text_field input{
+    text-align: center;
+    width: 98%;
+    height: 29px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-left: 8px;
+    color: rgb(44, 44, 44);
+}
+.text_field input::placeholder { 
+    text-align: center;
+}
+button{
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 5px;
+    width: 80%;
+    color: rgb(80, 69, 69);
+    background: transparent;
+    border:1px solid rgb(145, 141, 121);
+    border-radius: 10px;
+    transition: 0.7s;
+}
+button:hover{
+    color: white;
+    background-color: rgb(78, 72, 61);
+    transition: 0.7s;
+}
+
+.fpass{
+    margin-top: 5px;
+    text-align: center;
+}
